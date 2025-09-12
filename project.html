@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./projects.css">
+     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header">
+        <a href="./index.html" class="logo">Abhay.</a>
+        <nav class="navbar">
+            <a href="./index.html" style="--i:1">Home</a>
+            <a href="./project.html" class="active" style="--i:2">Projects</a>
+            <a href="./contact.html" style="--i:3">Contact</a>
+        </nav>
+    </header>
+
+    <section class="projects-section">
+        <h1 class="section-title">My Projects</h1>
+        <p class="section-subtitle">Explore my latest work and creative solutions</p>
+
+        <!-- Media Section -->
+        <div class="media-section">
+            <div class="media-card">
+                <h3>Project Demo</h3>
+                <div class="video-container">
+                    <video controls>
+                        <source src="./project.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+            
+            <div class="media-card">
+                <h3>Background Atmosphere</h3>
+                <div class="audio-container">
+                    <i class='bx bx-music audio-icon'></i>
+                    <audio controls class="audio-player">
+                        <source src="./Seoul City(MP4) (mp3cut.net).mp3" type="audio/wav">
+                        Your browser does not support the audio element.
+                    </audio>
+                    <p style="color: rgba(255,255,255,0.8); text-align: center;">Coding Ambient Sound</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Skills and Tools Section -->
+        <div class="skills-tools-section">
+            <div class="skills-card">
+                <h3>Top Skills</h3>
+                <ol class="skills-list">
+                    <li>HTML </li>
+                    <li>CSS TAILWINDCSS </li>
+                    <li>JavaScript</li>
+                    <li>Python (Pandas,NUMPY)</li>
+                    
+                </ol>
+            </div>
+            
+            <div class="tools-card">
+                <h3>Tools I Use</h3>
+                <ul class="tools-list">
+                    <li>Visual Studio Code</li>
+                    <li>Git & GitHub</li>
+                    <li>MYSQL</li>
+                    <li>XAMPP </li>
+                    <li> PostgreSQL</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Projects Table -->
+        <div class="table-container">
+            <h3>Project Overview</h3>
+            <table class="projects-table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Description</th>
+                        <th>Year</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>E-Commerce Platform</td>
+                        <td>Full-stack online store with payment integration and admin dashboard</td>
+                        <td>2024</td>
+                    </tr>
+                    <tr>
+                        <td>Task Management System</td>
+                        <td>Real-time collaborative task tracker with team management features</td>
+                        <td>2024</td>
+                    </tr>
+                    <tr>
+                        <td>Weather Dashboard</td>
+                        <td>Interactive weather application with location-based forecasts</td>
+                        <td>2023</td>
+                    </tr>
+                    <tr>
+                        <td>Social Media Analytics</td>
+                        <td>Data visualization tool for social media performance tracking</td>
+                        <td>2023</td>
+                    </tr>
+                    <tr>
+                        <td>Portfolio Website</td>
+                        <td>Responsive personal portfolio with modern design and animations</td>
+                        <td>2023</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Project Cards Grid -->
+        <div class="projects-grid">
+            <article class="project-card">
+                <h4>E-Commerce Platform</h4>
+                <p>A comprehensive online shopping solution built with React and Node.js, featuring secure payment processing, inventory management, and real-time order tracking.</p>
+                <div class="project-tech">
+                    <span class="tech-tag">React</span>
+                    <span class="tech-tag">Node.js</span>
+                    <span class="tech-tag">MongoDB</span>
+                    <span class="tech-tag">Stripe</span>
+                </div>
+            </article>
+            
+            <article class="project-card">
+                <h4>Task Management System</h4>
+                <p>Collaborative project management tool with real-time updates, drag-and-drop functionality, team collaboration features, and detailed project analytics.</p>
+                <div class="project-tech">
+                    <span class="tech-tag">Vue.js</span>
+                    <span class="tech-tag">Socket.io</span>
+                    <span class="tech-tag">Express</span>
+                    <span class="tech-tag">PostgreSQL</span>
+                </div>
+            </article>
+            
+            <article class="project-card">
+                <h4>Weather Dashboard</h4>
+                <p>Beautiful weather application providing accurate forecasts, interactive maps, historical data analysis, and location-based weather alerts.</p>
+                <div class="project-tech">
+                    <span class="tech-tag">JavaScript</span>
+                    <span class="tech-tag">Chart.js</span>
+                    <span class="tech-tag">API</span>
+                    <span class="tech-tag">CSS3</span>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <footer>
+        <div class="home-sci">
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+            <a href="https://www.linkedin.com/in/abhay-r-19087b240" target="_blank"><i class='bx bxl-linkedin'></i></a>
+        </div>
+    </footer>
+</body>
+</html>
