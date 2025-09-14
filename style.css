@@ -35,9 +35,6 @@ input:focus {
     outline-offset: 2px;
 }
 
-/* =============================
-   Header + Navigation
-============================= */
 .header {
     position: fixed;
     top: 0;
@@ -139,9 +136,7 @@ input:focus {
     width: 100%;
 }
 
-/* =============================
-   Home Section
-============================= */
+
 .home {
     position: relative;
     height: 100vh;
@@ -213,9 +208,6 @@ input:focus {
     animation-delay: 1.5s;
 }
 
-/* =============================
-   Buttons
-============================= */
 .btn-box {
     display: flex;
     gap: 15px;
@@ -280,14 +272,6 @@ input:focus {
     width: 100%;
 }
 
-/* .btn-box a:nth-child(2) {
-    background: #00abf0;
-    color: #081b29;
-} */
-
-/* =============================
-   Social Icons
-============================= */
 .home-sci {
     position: absolute;
     bottom: 40px;
@@ -348,9 +332,7 @@ input:focus {
 @keyframes pulse { 0%,100% {transform:scale(1)} 50% {transform:scale(1.05)} }
 @keyframes textGlow { 0%,100% {text-shadow:0 0 20px rgba(0,171,240,.5)} 50% {text-shadow:0 0 40px rgba(0,171,240,.8)} }
 
-/* =============================
-   Responsive
-============================= */
+
 @media (max-width: 768px) {
     .header { padding: 15px 5%; }
     .navbar a { font-size: 16px; }
@@ -369,9 +351,7 @@ input:focus {
     .btn-box a { height: 40px; font-size: 14px; }
 }
 
-/* =============================
-   Accessibility & Dark Mode
-============================= */
+
 @media (prefers-color-scheme: dark) {
     .header { background: rgba(8, 27, 41, 0.95); }
 }
