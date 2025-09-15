@@ -371,32 +371,3 @@ input:focus {
         text-shadow: 1px 1px 2px rgba(0,0,0,0.8);
     }
 }
-
-/* Profile logo in header */
-.profile-logo {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  text-decoration: none;
-}
-
-.profile-logo img {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 2px solid #0ea5e9;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.profile-logo img:hover {
-  transform: scale(1.1);
-  box-shadow: 0 0 10px rgba(14, 165, 233, 0.6);
-}
-
-.profile-logo .logo {
-  font-size: 20px;
-  font-weight: 600;
-  color: inherit;
-}
-
